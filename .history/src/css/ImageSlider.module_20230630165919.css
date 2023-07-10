@@ -1,0 +1,12 @@
+.slider {
+    
+  overflow: hidden;
+  display: flex;
+  width: 80%;
+}
+
+.image {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+}

@@ -1,0 +1,10 @@
+.navbar{
+    dis
+    background-color: var(--gray-100);
+    height: 5rem;
+    width: 100%;
+}
+
+.logo{
+    width: 2rem;
+}

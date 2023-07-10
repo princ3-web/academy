@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: var(--gray-50);
+  height: 5rem;
+  width: 100%;
+}
+
+
+.buttons {
+  display: flex;
+}

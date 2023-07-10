@@ -1,0 +1,8 @@
+.slider {
+overflow: hidden;
+  display: flex;
+}
+
+.image {
+  width: 80%;
+}

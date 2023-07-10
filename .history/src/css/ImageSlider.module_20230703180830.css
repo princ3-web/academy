@@ -1,0 +1,42 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  left: 0%;
+  width: 100%;
+  height: 80vh;
+}
+
+
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  left: 2.5%;
+}
+
+.arrow {
+  height: 3rem;
+  cursor: pointer;
+}
+
+.slide{
+  height: 80vh;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid blue;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 1s linear;
+}
+

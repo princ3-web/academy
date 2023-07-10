@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bo
+    padding-inline: 4rem;
+    background-color: var(--gray-100);
+    height: 5rem;
+    width: 100%;
+}
+
+.logo{
+    width: 3rem;
+    object-fit: contain;
+}

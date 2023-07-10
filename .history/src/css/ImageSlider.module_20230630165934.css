@@ -1,0 +1,13 @@
+.slider {
+    position: relative;
+  overflow: hidden;
+  display: flex;
+  width: 80%;
+  height: 100v;
+}
+
+.image {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+}

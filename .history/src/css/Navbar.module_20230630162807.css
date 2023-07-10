@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-inline: 2rem;
+  background-color: var(--gray-50);
+  height: 5rem;
+  width: 100%;
+}
+
+.icon {
+  width: 3rem;
+  object-fit: contain;
+}
+
+.searchBar {
+  height: 5rem;
+  width: 30rem;
+  height: 50%;
+  border-radius: 1rem;
+  border: 1px solid var(--gray-400);
+
+}
+
+.buttons{
+    display: flex;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: 1px solid var(--gray-900);
+    margin-right: 0.5rem;
+}

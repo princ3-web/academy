@@ -1,0 +1,39 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  left: 0%;
+  height: 80vh;
+}
+
+.slide {
+  height: 80vh;
+  justify-content: center;
+  align-content: center;
+}
+
+.image {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transition: 0.5s
+}
+
+.arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  height: 80vh;
+  left: 2.5%;
+  top: 0%;
+}
+
+.arrow {
+  cursor: pointer;
+}

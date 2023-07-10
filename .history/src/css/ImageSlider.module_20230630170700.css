@@ -1,0 +1,28 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  left: 10%;
+  width: 10%;
+  height: 70vh;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
+  width: 95%;
+  left: 2.5%;
+}
+
+.arrow {
+  height: 3rem;
+}
