@@ -1,0 +1,31 @@
+.slider {
+  box-sizing: border-box;
+}
+
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 60vh;
+  left: 0%;
+  top: 0%;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+
