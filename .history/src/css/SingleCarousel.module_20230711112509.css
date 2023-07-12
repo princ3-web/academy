@@ -1,0 +1,51 @@
+.slider {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  width: 90vw;
+  margin-inline: 5rem;
+  border: 2px solid green;
+}
+
+.slide {
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  transition: 0.5s;
+  height: 80vh;
+  width: 100%;
+
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 80vh;
+  left: 0%;
+  top: 0%;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.textBox {
+  position: absolute;
+  z-index: 1;
+  top: 4rem;
+  left: 4rem;
+}
