@@ -11,7 +11,7 @@ import Image from "./Image";
 
 const OpinionCard = ({ name, text, role, gender, workplace, isMobile }) => {
   return (
-    <Box display={"flex"} flexDirection={"column"} justifyContent={"space-between"} width={"50vw"} px={10}>
+    <Box display={"flex"} flexDirection={isMobile ? "column" : "row"} justifyContent={"space-between"} width={"50vw"} px={10}>
       <Box
         width={isMobile ? "60vw" : "50vw"}
         display={"flex"}

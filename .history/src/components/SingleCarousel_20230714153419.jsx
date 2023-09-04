@@ -61,6 +61,7 @@ const SingleCarousel = ({ images }) => {
             sx={{
               position: "absolute",
               bottom: "5%",
+            
               zIndex: 1,
               boxShadow: 10,
               boxSizing: "border-box",
